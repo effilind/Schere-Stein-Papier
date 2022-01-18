@@ -1,0 +1,102 @@
+
+
+.oberflaeche {
+    background-color: aquamarine;
+    border: 2px seagreen;
+    border-style: solid;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+h1 {
+   color: seagreen;
+   font-size: 4vw;
+}
+
+h2 {
+    font-size: 3vw;
+}
+
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    padding-right: 100px;
+    padding-left: 100px;
+    justify-content: space-between;
+}
+
+.player {
+    
+    padding: 10px;
+    box-sizing: border-box;
+}
+.computer {
+    
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.erg-player {
+    font-size: 3vw;
+    color: seagreen;
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
+
+.erg-computer {
+    font-size: 3vw;
+    color: red;
+    padding-right: 0px;
+    padding-bottom: 50px;
+
+}
+
+.icons {
+    color: seagreen;
+
+}
+
+.iconsc {
+    color: seagreen;
+}
+
+.anzeige {
+    background-color: seagreen;
+    align-self: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    padding: 50px;
+    font-size: 3vw;
+    color: white;
+
+
+
+}
+
+
+.wahl {
+    display: flex;
+    flex-direction: column;
+    h2 {
+    color: seagreen;
+    align-self: center;
+    }
+    .icons2 {
+        align-self: center;
+        align-items: flex-start;
+        font-size: 50px;
+        padding: 20px;
+        color: seagreen;
+
+    }
+}
